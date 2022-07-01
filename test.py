@@ -1,5 +1,5 @@
 import mlflow
-mlflow.tenorflow.autolog()
+mlflow.tensorflow.autolog()
 mlflow.set_experiment("Users/srigandhan.v@cdsazure.onmicrosoft.com/MLFLOW_CLI_TEST")
 mlflow.start_run()
 mlflow.log_param("t1","t1")
